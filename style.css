@@ -38,7 +38,6 @@ header {
 }
 
 .drawing-board {
-    background: white;
     box-shadow: 3px 2px 8px 3px #7a7a7a;
     display: grid;
     width: 500px;
@@ -86,13 +85,30 @@ header {
 
 .slider-box {
     margin-top: 1em;
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
 }
 
+#range {
+    border:1px solid rgb(28, 192, 233);
+    background-color: transparent;
+    color: aqua;
+    padding: 1em 1em;
+}
+
+#btn-create {
+    border: 1px solid rgb(67, 217, 255);
+    border-radius: 4px;
+    background: transparent;
+    padding: .7em .4em;
+    color: rgb(99, 224, 255);
+}
 .btn {
     margin-top: 1em;
     border: none;
-    color: rgb(28, 192, 233);
-    border: 1px solid rgb(28, 192, 233);
+    color: rgb(99, 224, 255);
+    border: 1px solid rgb(67, 217, 255);
     background-color: transparent;
     padding: .8em 1em;
     font-weight: bold;
